@@ -1,13 +1,12 @@
 describe('Demoblaze page', () => {
   it('the login form has correct credentials', () => {
-    const data = "jcm";
     cy.visit('https://www.demoblaze.com/index.html');
 
     cy.get("#login2").click();
 
-    cy.get("#loginusername").type(data).should('have.value', data);
+    cy.get("#loginusername").type("jcm").should('have.value', "jcm");
 
-    cy.get('#loginpassword').type(data).should('have.value', data);
+    cy.get('#loginpassword').type("jcm").should('have.value', "jcm");
 
     cy.get('button').contains('Log in').click();
 

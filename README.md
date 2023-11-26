@@ -25,6 +25,6 @@ npm install
 
 ```
 
-npx open cypress
+npx cypress open
 
 ```
