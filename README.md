@@ -1,19 +1,19 @@
 # Tarea Cypress básico
 
-## Integrantes
+## Team members
 
 - Rodrigo Brevis <br>
 - Jorge Cortez
 
-## Descripción
-El proyecto posee dos pruebas E2E: 
-- El archivo <i>demoblaze.cy.js</i> posee pruebas de inicio de sesión exitoso y fallido mediante un formulario, usando la página https://www.demoblaze.com/. 
+## Description
+The project has two E2E testing files: 
+- The file <i>demoblaze.cy.js</i> has tests of successful and failed login by entering data in a form, by using the page https://www.demoblaze.com/. 
 
--  El archivo <i>petstore.cy.js</i> posee una prueba que busca un animal en el buscador, luego selecciona uno de los animales encontrados, y finalmente selecciona una de las variedades disponibles de ese animal, mostrando los detalles para la variedad seleccionada; usando la página: https://petstore.octoperf.com/.
+- The file <i>petstore.cy.js</i> has a test that searches an animal in the input, then selects an animal from the results, and finally selects one of the varieties found for that specific animal, showing the details for that animal variety selected; by using the page: https://petstore.octoperf.com/.
 
-## Instrucciones de ejecución
+## Execution instructions
 
-- Instalar dependencias:
+- Install dependencies:
 
 ```
 
@@ -21,7 +21,7 @@ npm install
 
 ```
 
-- Ejecutar cypess:
+- Run cypress:
 
 ```
 
